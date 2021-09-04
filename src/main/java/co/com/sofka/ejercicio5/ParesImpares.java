@@ -7,7 +7,7 @@ package co.com.sofka.ejercicio5;
 
 public class ParesImpares {
     /**Atributos*/
-    private int contador;
+    protected int contador;
 
     public ParesImpares(){
         this.contador = 1;
