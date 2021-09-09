@@ -19,5 +19,6 @@ public class AreaCirculo {
     public double calcularArea(double radio){
         this.radio = radio;
         return (Math.PI*Math.pow(this.radio,2));
+        //System.out.println("El area es: "+Math.PI*Math.pow(this.radio,2));
     }
 }

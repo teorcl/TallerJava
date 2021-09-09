@@ -18,7 +18,6 @@ public class ParesImpares {
             System.out.println("Números Pares");
             while (this.contador <= 100){
                 if((this.contador % 2) == 0) System.out.print(this.contador+" ");
-                //else return "";
                 this.contador += 1;
             }
             System.out.println();
@@ -26,7 +25,6 @@ public class ParesImpares {
             System.out.println("Números Impares");
             while (contador <= 100){
                 if((this.contador % 2) != 0) System.out.print(this.contador+" ");
-                //else return "";
                 this.contador += 1;
             }
             break;

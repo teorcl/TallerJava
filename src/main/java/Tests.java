@@ -27,8 +27,8 @@ public class Tests {
         //System.out.println("Digita el radio de un circulo para conocer su area");
         r = Double.parseDouble(JOptionPane.showInputDialog("Digite el radio de un circulo para conocer su area"));
 
-        AreaCirculo area = new AreaCirculo();
-        System.out.println("El area del circulo es: "+area.calcularArea(r));
+        //AreaCirculo area = new AreaCirculo();
+       // System.out.println("El area del circulo es: "+area.calcularArea(r));
 
         sc.close();
     }

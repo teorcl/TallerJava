@@ -6,11 +6,15 @@ package co.com.sofka.ejercicio4;
  * */
 public class Producto {
     //Atributos
+    private final double IVA = 0.21;
     private double precioProducto;
-    final double IVA = 0.21;
 
-    /**Constructor*/
+    /**METODOS*/
     public Producto(double precioProducto) {
+        this.precioProducto = precioProducto;
+    }
+
+    public void setPrecioProducto(double precioProducto) {
         this.precioProducto = precioProducto;
     }
 
