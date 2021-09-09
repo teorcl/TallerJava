@@ -6,11 +6,10 @@ public class TestPalabras {
         String palabra = "romaIsBeautill";
 
         Palabras misPalabras = new Palabras(word,palabra);
-        //misPalabras.compararPalabras();
+        misPalabras.compararPalabras();
         misPalabras.contarIguales();
 
-        Words myWord = new Words(word,palabra);
-        myWord.compareWords();
+        /**Hacer el hpta test*/
 
     }
 }
