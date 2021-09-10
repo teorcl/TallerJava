@@ -25,6 +25,7 @@ public class Electrodomestico {
     }
 
     public Electrodomestico(double precio, double peso) {
+        this();
         this.precio = precio;
         this.peso = peso;
     }
