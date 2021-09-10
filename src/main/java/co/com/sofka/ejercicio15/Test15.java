@@ -14,7 +14,7 @@ public class Test15 {
             miMenu.setOpcion(num);
             miMenu.selecOpcion();
         }while (miMenu.getOpcion() != 8);
-        System.out.println("Gracias por visitar de peliculas");
+        System.out.println("Gracias por visitar nuestro sitio de peliculas");
 
     }
 }
