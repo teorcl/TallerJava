@@ -30,4 +30,36 @@ public class Test17 {
         listaElectrodomesticos.add(television3);
 
     }
+
+    public void precioFinal() {
+        Double totalLavadoras = 0.0;
+        Double totalTelevisores = 0.0;
+        Double totalElectrodomesticos = 0.0;
+        Double total = 0.0;
+
+        for (Electrodomestico electrodomestico : listaElectrodomesticos) {
+            electrodomestico.precioFinal();
+            if (electrodomestico instanceof Electrodomestico) {
+                totalElectrodomesticos += electrodomestico.getPrecio();
+            }
+            if (electrodomestico instanceof Lavadora) {
+                totalLavadoras += electrodomestico.getPrecio();
+            }
+            if (electrodomestico instanceof Televisor) {
+                totalTelevisores += electrodomestico.getPrecio();
+            }
+        }
+        total = totalLavadoras + totalElectrodomesticos + totalTelevisores;
+        System.out.println("Total ventas: " + total);
+        System.out.println("Total televisores: " + totalTelevisores);
+        System.out.println("Total lavad: " + totalLavadoras);
+        System.out.println("Total televisores: " + totalElectrodomesticos);
+    }
+
+    public static void main(String[] args) {
+        Test17 main = new Test17();
+        main.llenarLista();
+        main.precioFinal();
+
+    }
 }
