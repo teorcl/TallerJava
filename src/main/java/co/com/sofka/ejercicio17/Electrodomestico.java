@@ -21,7 +21,7 @@ public class Electrodomestico {
         this.consumoEnergetico=CONSUMO_BASE;
         this.precio = PRECIO_BASE;
         this.peso = PESO_BASE;
-        
+
     }
 
     public Electrodomestico(double precio, double peso) {
@@ -84,6 +84,9 @@ public class Electrodomestico {
         return precio;
     }
 
+    public double getPrecio() {
+        return precio;
+    }
 }
 
 
